@@ -3,7 +3,7 @@ from Bio.Seq import Seq
 
 # Open the input file containing the DNA string
 with open("rosalind_ini.txt") as f:
-    # Read the first line and strip the trailing newline/whitespace
+    # Read the first line and strip the trailing whitespace
     s = f.readline().strip()
 
 # Wrap the raw string in a Biopython Seq object
